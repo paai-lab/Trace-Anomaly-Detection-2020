@@ -1,8 +1,8 @@
-# Information Measure based Anomaly detection using Adjusted Leverage
-This repository shows developed algorithm of adjected leverage score and anomaly detection for event log, and a folder "BINET_tnolle" is refered from "https://github.com/tnolle/binet" to show baseline models including Sampling, Naive, OC-SVM, DAE, BINET refered from [2].
+# Title: Detecting anomalies in business process event logs using statistical leverage
+(Detecting anomalies in business process event logs using statistical leverages, Jonghyeon Ko and Marco Comuzzi, Information Sciences, Accepted for publication (Nov 2020))
+This repository shows developed algorithm of adjucted leverage score and anomaly detection for event log, and a folder "BINET_tnolle" is refered from "https://github.com/tnolle/binet" to show baseline models including Sampling, Naive, OC-SVM, DAE, BINET refered from [2].
 The algorithm of adjected leverage is coded using statistical package R as seen in folder "Leverage_Ko" and it calculates anomaly score for each case in trace level. 
 The total result of performance was recorded in "table.csv" file.
-
 
 ## Prepared Data1 - 70 artifical logs
 We used 7 types of process models including large_log, small_log refered from [1], small, medium, large, huge, wide refered from [1] to generate artificial logs. With 10 times of repetition, there are 10 artifical_logs for each model.  
