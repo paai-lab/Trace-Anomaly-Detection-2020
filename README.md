@@ -1,5 +1,5 @@
 # Title: Detecting anomalies in business process event logs using statistical leverage
-__Reference: *Detecting anomalies in business process event logs using statistical leverages*, 
+__Reference: *Detecting anomalies in business process event logs using statistical leverages*,    
 Jonghyeon Ko and Marco Comuzzi, Information Sciences, Accepted for publication (Nov 2020)__
 
 This repository shows developed algorithm of adjucted leverage score and anomaly detection for event log, and a folder "BINET_tnolle" is refered from "https://github.com/tnolle/binet" to show baseline models including Sampling, Naive, OC-SVM, DAE, BINET refered from [2].
